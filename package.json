@@ -1,0 +1,23 @@
+{
+  "name": "my-weather-app",
+  "version": "1.0.0",
+  "description": "Simple weather app using Open-Meteo",
+  "scripts": {
+    "start": "echo Apri public/index.html nel browser",
+    "test": "jest"
+  },
+  "keywords": [
+    "weather",
+    "open-meteo",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
